@@ -174,3 +174,12 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax 200);
+  grid-auto-rows: 250px;
+
+
+}
